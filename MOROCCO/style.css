@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+   display:flex;
+   flex-direction: column;
+   min-height: 100vh;
+   
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    background-color:#801111;
+
+
+}
+
+.logo{
+    font-size:30px;
+    text-decoration:none;
+    color:seagreen;
+    font-weight:800;
+    padding:10px 30px;
+    
+}
+.logo:hover{
+    color:wheat;
+ }  
+ .navbar{
+    display:flex;
+    align-items:center;
+    padding:20px 60px;
+ }
+ .navbar a{
+    padding-left:10px;
+    font-size:20px;
+    text-decoration:none;
+    color:seagreen;
+    font-weight:800;
+ }
+ .navbar a.home{
+     color: chartreuse;
+    
+ }
+ .navbar a.about{
+     color: cadetblue;
+ }
+ .navbar a.players{
+     color: cornflowerblue;
+ }
+ .navbar a.thropies{
+     color: darkblue ;
+ }
+ .navbar a:hover{
+    color:bisque
+ }
+ .logobar{
+     display: flex;
+     align-items: center;
+     padding: 5px 20px;
+
+ }
+ .logobar img{
+     width:25px
+ }
+footer{width: 100%;
+    margin-top: 50px;
+    padding: 70px 30px 20px;
+    background-color: #801111;
+}
+footer .socialIcons{
+display: flex;
+justify-content: center;
+}
+footer .socialIcons a{
+    text-decoration: none;
+background-color: #fff ;
+border-radius: 50%;
+padding: 10px;
+margin: 5px;
+}
+footer .socialIcons a i#fb{
+    color: blueviolet;
+}
+footer .socialIcons a i#ig{
+    color: burlywood;
+}
+footer .socialIcons a i#ytb{
+    color: cyan;
+}
+footer .socialIcons a i#wts{
+    color: blue;
+}
+footer .equipe{
+    margin: 30px 0;
+}
+footer .equipe ul{
+    display: flex;
+    justify-content: center;
+}
+footer .equipe ul li{
+    list-style: none;
+}
+footer .equipe ul li a{
+    margin: 5px;
+    text-decoration: none;
+    color: chartreuse;
+}
+footer .tantan {
+    justify-content: center;
+    display: flex;
+    color: gold;
+}
